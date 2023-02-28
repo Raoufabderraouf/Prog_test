@@ -7,7 +7,7 @@ console.log(lengthOfSentence)
 const words = sentence.split(" ").length
 console.log(words);
 
-const vowels = [`a`, `i`, `o`, `y`, `u`]
+const vowels = [`a`, `e`, `i`, `o`, `y`, `u`]
 
 let vowelsCount = 0
 for (let i = 0; i < sentence.length; i++){
